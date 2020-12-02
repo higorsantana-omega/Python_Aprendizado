@@ -1,9 +1,9 @@
-create table if not exists cidades(
-    id int unsigned not null auto_increment,
-    nome varchar(255) not null,
-    estado_id int unsigned not null,
-    area decimal(10,2),
-    primary key (id),
+CREATE TABLE IF NOT EXISTS cidades(
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    estado_id INT UNSIGNED NOT NULL,
+    area DECIMAL(10,2),
+    PRIMARY KEY (id),
     -- Chave estrangeira (estadoid) referenciu ao banco de dados `estados`
-    foreign key (estado_id) references estados (id)
+    FOREIGN KEY (estado_id) REFERENCES estados (id)
 );
