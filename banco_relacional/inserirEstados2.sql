@@ -1,6 +1,8 @@
 -- Mais estados
+-- Inserir em estados
 INSERT INTO estados
     (nome, sigla, regiao, populacao)
+-- Valores
 VALUES
     ('Bahia', 'BA', 'Nordeste', 15.34),
     ('Ceará', 'CE', 'Nordeste', 9.02),

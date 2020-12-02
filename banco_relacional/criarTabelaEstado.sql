@@ -1,4 +1,5 @@
 -- Criando Tabela Estados
+-- Criar tabela estados
 create table estados(
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     nome VARCHAR(45) NOT NULL,
