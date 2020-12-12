@@ -8,5 +8,8 @@ conexao = connect(
     passwd = 'higors222'
 )
 
+# Navegar no banco
 cursor = conexao.cursor()
-cursor.execute('CREATE DATABASE IF NOT EXISTSagenda')
+
+# Executar alguma ação no banco
+cursor.execute('CREATE DATABASE IF NOT EXISTS agenda')
